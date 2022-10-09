@@ -14,7 +14,7 @@ with codecs.open(os.path.join(current_dir, "kitacrypto", "version.py")) as versi
 
 setup(
     name="kitacrypto",
-    version=__version__, # noqa: F821
+    version=__version__,  # noqa: F821
     author="Alexandr Rutkovskij",
     author_email="kitanoyoru@protonmail.com",
     packages=["kitacrypto"],
@@ -23,5 +23,5 @@ setup(
     description="CLI app to see current cryptocurrencies' price.",
     long_description=long_description,
     zip_safe=True,
-    python_requires=">=3.6"
+    python_requires=">=3.6",
 )
