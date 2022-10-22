@@ -14,12 +14,12 @@ with codecs.open(os.path.join(current_dir, "kitacrypto", "version.py")) as versi
 
 setup(
     name="kitacrypto",
-    version=__version__,  # noqa: F821
+    version="1.0.0",  # noqa: F821
     author="Alexandr Rutkovskij",
     author_email="kitanoyoru@protonmail.com",
     packages=["kitacrypto"],
     url="https://github.com/kitanoyoru/kitaCryptoCLI",
-    licens="MIT",
+    license="MIT",
     description="CLI app to see current cryptocurrencies' price.",
     long_description=long_description,
     zip_safe=True,

@@ -9,7 +9,7 @@ class GetPriceRequest:
 
     __slots__ = ["id", "api_url", "vs_currency"]
 
-    def __init__(self, id, api_url: str, vs_currency: Optional[str] = "usd"):
+    def __init__(self, id: str, api_url: str, vs_currency: Optional[str] = "usd"):
         self.id = id
         self.vs_currency = vs_currency
         self.api_url = api_url
